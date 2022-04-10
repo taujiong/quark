@@ -24,3 +24,6 @@ Thumbs.db
 # .NET Core build folders
 bin/
 obj/
+
+# dotenv files
+.env

@@ -5,6 +5,7 @@
     "build": "dotnet build",
     "serve": "dotnet watch run",
     "lint": "dotnet format",
-    "test": "dotnet test"
+    "test": "dotnet test",
+    "db": "yarn dotnet:ef"
   }
 }

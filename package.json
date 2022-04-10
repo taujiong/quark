@@ -7,7 +7,8 @@
     "libs/*"
   ],
   "scripts": {
-    "postinstall": "node ./scripts/postinstall.js"
+    "postinstall": "node ./scripts/postinstall.js",
+    "dotnet:ef": "cd $INIT_CWD && dotnet ef"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
