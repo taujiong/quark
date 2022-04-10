@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "extends": ["alloy", "alloy/typescript", "alloy/react"],
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {},
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {
+        "@typescript-eslint/no-require-imports": "off"
+      }
+    }
+  ]
+}

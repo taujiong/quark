@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    // language and environment
+    "target": "esnext",
+    "lib": ["dom", "esnext"],
+    "jsx": "preserve",
+    // emit
+    "importHelpers": true,
+    "removeComments": true,
+    // type checking
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": true,
+    // interop constraints
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    // completeness
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    // jsvascript support
+    "allowJs": true,
+    "checkJs": true,
+    // modules
+    "rootDir": ".",
+    "baseUrl": ".",
+    "types": ["node"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {}
+  }
+}
