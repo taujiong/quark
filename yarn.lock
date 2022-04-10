@@ -298,6 +298,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@quark/identity@workspace:apps/Quark.Identity":
+  version: 0.0.0-use.local
+  resolution: "@quark/identity@workspace:apps/Quark.Identity"
+  languageName: unknown
+  linkType: soft
+
 "@tsconfig/node10@npm:^1.0.7":
   version: 1.0.8
   resolution: "@tsconfig/node10@npm:1.0.8"

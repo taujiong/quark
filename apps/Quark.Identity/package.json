@@ -1,0 +1,10 @@
+{
+  "name": "@quark/identity",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "build": "dotnet build",
+    "serve": "dotnet watch run",
+    "lint": "dotnet format",
+    "test": "dotnet test"
+  }
+}
