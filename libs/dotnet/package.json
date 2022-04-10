@@ -1,0 +1,9 @@
+{
+  "name": "@quark/dotnet",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "build": "dotnet build",
+    "lint": "dotnet format",
+    "test": "dotnet test"
+  }
+}

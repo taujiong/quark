@@ -298,9 +298,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quark/identity@workspace:apps/Quark.Identity":
+"@quark/dotnet@workspace:libs/dotnet":
   version: 0.0.0-use.local
-  resolution: "@quark/identity@workspace:apps/Quark.Identity"
+  resolution: "@quark/dotnet@workspace:libs/dotnet"
+  languageName: unknown
+  linkType: soft
+
+"@quark/identity@workspace:apps/identity":
+  version: 0.0.0-use.local
+  resolution: "@quark/identity@workspace:apps/identity"
   languageName: unknown
   linkType: soft
 
