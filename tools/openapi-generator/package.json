@@ -1,0 +1,10 @@
+{
+  "name": "@quark/openapi-generator",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@3.2.0",
+  "bin": {
+    "fetch-openapi": "fetch.js",
+    "openapi-gen": "generate.js"
+  }
+}

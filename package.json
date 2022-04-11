@@ -4,11 +4,16 @@
   "packageManager": "yarn@3.2.0",
   "workspaces": [
     "apps/*",
-    "libs/*"
+    "libs/*",
+    "tools/*"
   ],
   "scripts": {
     "postinstall": "node ./scripts/postinstall.js",
     "dotnet:ef": "cd $INIT_CWD && dotnet ef"
+  },
+  "dependencies": {
+    "@quark/openapi-generator": "workspace:^",
+    "node-fetch": "^3.2.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
