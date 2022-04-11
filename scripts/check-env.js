@@ -35,7 +35,9 @@ process.exit()
 function parseEnvItemsFromFile(filePath) {
   return readFileSync(filePath, 'utf8')
     .split('\n') // get each line
-    .filter((line) => line.indexOf('=') !== -1) // valid env item
+    .filter((line) => !line) // ignore empty line
+    .filter((line) => line.startsWith('#')) // ignore comment
+    .filter((line) => line.indexOf('=') !== -1) // ignore invalid item
     .map((line) => line.split('=')[0]) // get key
     .sort() // make it in order
 }

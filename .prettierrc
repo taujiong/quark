@@ -8,5 +8,6 @@
   "bracketSameLine": false,
   "bracketSpacing": true,
   "htmlWhitespaceSensitivity": "css",
-  "jsxSingleQuote": true
+  "jsxSingleQuote": true,
+  "xmlWhitespaceSensitivity": "ignore"
 }
