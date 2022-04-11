@@ -1310,9 +1310,8 @@
         "additionalProperties": false
       },
       "ContactMethod": {
-        "enum": [0, 1],
-        "type": "integer",
-        "format": "int32"
+        "enum": ["Phone", "Email"],
+        "type": "string"
       },
       "ExternalLoginCreateDto": {
         "required": ["loginProvider", "providerKey", "userId"],

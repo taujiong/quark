@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using System.Text.Json.Serialization;
 
 namespace Microsoft.AspNetCore.Builder;
 
@@ -21,6 +22,19 @@ public static class WebApplicationBuilderExtensions
 
     builder.Services.AddHttpContextAccessor();
     builder.Services.TryAddScoped<ICurrentUser, CurrentUser>();
+  }
+
+  public static IMvcBuilder AddApiController(this WebApplicationBuilder builder)
+  {
+    if (builder == null) throw new ArgumentNullException(nameof(builder));
+
+    var mvcBuilder = builder.Services.AddControllers();
+    mvcBuilder.AddJsonOptions(o =>
+    {
+      o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
+
+    return mvcBuilder;
   }
 
   public static void ConfigureApiController(this WebApplicationBuilder builder)

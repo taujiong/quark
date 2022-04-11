@@ -33,7 +33,7 @@ builder.Services.AddIdentityCore<AppUser>(options =>
 
 builder.Services.AddAutoMapper(typeof(IdentityMapperProfile));
 
-var mvcBuilder = builder.Services.AddControllers();
+var mvcBuilder = builder.AddApiController();
 builder.AddQuarkLocalization(mvcBuilder);
 builder.ConfigureApiController();
 
