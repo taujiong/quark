@@ -27,3 +27,6 @@ obj/
 
 # dotenv files
 .env
+
+# generate artifacts
+libs/contracts/src
