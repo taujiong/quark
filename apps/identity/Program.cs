@@ -1,10 +1,10 @@
-using Quark.Identity.Api.Data;
-using Quark.Identity.Api.Localization;
-using Quark.Identity.Api.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Quark.Identity.Data;
+using Quark.Identity.Localization;
+using Quark.Identity.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,8 +1,8 @@
-﻿using Quark.Identity.Api.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Quark.Identity.Models;
 
-namespace Quark.Identity.Api.Data;
+namespace Quark.Identity.Data;
 
 public class AppDbContext : IdentityUserContext<AppUser>
 {

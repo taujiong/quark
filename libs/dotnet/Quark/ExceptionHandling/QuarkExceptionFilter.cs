@@ -1,10 +1,10 @@
 using System.Diagnostics;
-using Quark.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
+using Quark.Localization;
 
 namespace Quark.ExceptionHandling;
 

@@ -1,11 +1,12 @@
-﻿using Quark.AspNetCore.Mvc;
-using Quark.ExceptionHandling;
-using Quark.Identity.Api.Extensions;
-using Quark.Identity.Api.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Quark.AspNetCore.Mvc;
+using Quark.ExceptionHandling;
+using Quark.Identity.Contracts;
+using Quark.Identity.Extensions;
+using Quark.Identity.Models;
 
-namespace Quark.Identity.Api.Controllers;
+namespace Quark.Identity.Controllers;
 
 public class ExternalLoginController : QuarkControllerBase
 {

@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
-namespace Quark.Identity;
+namespace Quark.Identity.Contracts;
 
 public record ExternalLoginInfoDto
 {

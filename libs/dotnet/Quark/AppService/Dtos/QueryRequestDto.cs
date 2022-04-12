@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-using Quark.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Localization;
+using Quark.Localization;
 
 namespace Quark.AppService.Dtos;
 

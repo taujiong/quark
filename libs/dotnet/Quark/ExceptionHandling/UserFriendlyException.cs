@@ -1,4 +1,4 @@
-﻿namespace Quark.ExceptionHandling;
+namespace Quark.ExceptionHandling;
 
 public class UserFriendlyException : QuarkException
 {

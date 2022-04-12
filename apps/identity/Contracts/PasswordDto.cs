@@ -2,7 +2,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Quark.Identity;
+namespace Quark.Identity.Contracts;
 
 public record ChangePasswordDto
 {

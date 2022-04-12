@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Quark.Identity;
+namespace Quark.Identity.Contracts;
 
 public record IdentityUserUpdateDto
 {

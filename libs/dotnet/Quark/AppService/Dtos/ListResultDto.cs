@@ -1,12 +1,12 @@
-﻿namespace AppService.Dtos;
+namespace Quark.AppService.Dtos;
 
 [Serializable]
 public record ListResultDto<T>
 {
-    public ListResultDto(IReadOnlyList<T>? items)
-    {
-        Items = items ?? new List<T>();
-    }
+  public ListResultDto(IReadOnlyList<T>? items)
+  {
+    Items = items ?? new List<T>();
+  }
 
-    public IReadOnlyList<T> Items { get; set; }
+  public IReadOnlyList<T> Items { get; set; }
 }

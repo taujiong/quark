@@ -1,4 +1,4 @@
-﻿namespace Quark.Identity.Api.Localization;
+namespace Quark.Identity.Localization;
 
 public class QuarkIdentityResource
 {

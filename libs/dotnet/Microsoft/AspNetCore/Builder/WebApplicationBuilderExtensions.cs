@@ -1,16 +1,16 @@
 using System.Globalization;
 using System.Reflection;
-using Quark.AspNetCore.Mvc.ApiExplorer;
-using Quark.AspNetCore.Mvc.Conventions;
-using Quark.AspNetCore.Users;
-using Quark.ExceptionHandling;
-using Quark.Localization;
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using System.Text.Json.Serialization;
+using Quark.AspNetCore.Mvc.ApiExplorer;
+using Quark.AspNetCore.Mvc.Conventions;
+using Quark.AspNetCore.Users;
+using Quark.ExceptionHandling;
+using Quark.Localization;
 
 namespace Microsoft.AspNetCore.Builder;
 

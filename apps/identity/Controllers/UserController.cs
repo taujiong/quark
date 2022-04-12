@@ -1,17 +1,17 @@
-﻿using System.Linq.Dynamic.Core;
-using AppService.Dtos;
-using Quark.AppService.Dtos;
-using Quark.AppService.Services;
-using Quark.AspNetCore.Mvc;
-using Quark.ExceptionHandling;
-using Quark.Identity.Api.Extensions;
-using Quark.Identity.Api.Models;
+using System.Linq.Dynamic.Core;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Quark.AppService.Dtos;
+using Quark.AppService.Services;
+using Quark.AspNetCore.Mvc;
+using Quark.ExceptionHandling;
+using Quark.Identity.Contracts;
+using Quark.Identity.Extensions;
+using Quark.Identity.Models;
 
-namespace Quark.Identity.Api.Controllers;
+namespace Quark.Identity.Controllers;
 
 public class UserController : QuarkControllerBase,
     ICrudAppService<string, IdentityUserOutputDto, IdentityUserCreateDto, IdentityUserUpdateDto>

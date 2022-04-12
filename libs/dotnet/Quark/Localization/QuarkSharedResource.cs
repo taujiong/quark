@@ -1,4 +1,4 @@
-﻿namespace Quark.Localization;
+namespace Quark.Localization;
 
 public class QuarkSharedResource
 {

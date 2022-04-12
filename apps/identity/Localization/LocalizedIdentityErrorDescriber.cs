@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 
-namespace Quark.Identity.Api.Localization;
+namespace Quark.Identity.Localization;
 
 public class LocalizedIdentityErrorDescriber : IdentityErrorDescriber
 {

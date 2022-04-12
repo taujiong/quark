@@ -1,7 +1,7 @@
-using Quark.ExceptionHandling;
 using Microsoft.AspNetCore.Mvc;
+using Quark.ExceptionHandling;
 
-namespace Quark.Identity.Api.ExceptionHandling;
+namespace Quark.Identity.ExceptionHandling;
 
 public class AuthException : QuarkException
 {

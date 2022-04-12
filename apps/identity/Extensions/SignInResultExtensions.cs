@@ -1,7 +1,7 @@
-using Quark.Identity.Api.ExceptionHandling;
 using Microsoft.AspNetCore.Identity;
+using Quark.Identity.ExceptionHandling;
 
-namespace Quark.Identity.Api.Extensions;
+namespace Quark.Identity.Extensions;
 
 public static class SignInResultExtensions
 {

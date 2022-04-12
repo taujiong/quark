@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 
-namespace Quark.Identity.Api.Models;
+namespace Quark.Identity.Models;
 
 public class AppUser : IdentityUser
 {

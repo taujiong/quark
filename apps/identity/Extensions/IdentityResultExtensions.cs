@@ -1,7 +1,7 @@
-using Quark.ExceptionHandling;
 using Microsoft.AspNetCore.Identity;
+using Quark.ExceptionHandling;
 
-namespace Quark.Identity.Api.Extensions;
+namespace Quark.Identity.Extensions;
 
 public static class IdentityResultExtensions
 {

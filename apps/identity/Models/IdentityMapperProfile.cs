@@ -1,6 +1,7 @@
 using AutoMapper;
+using Quark.Identity.Contracts;
 
-namespace Quark.Identity.Api.Models;
+namespace Quark.Identity.Models;
 
 public class IdentityMapperProfile : Profile
 {
