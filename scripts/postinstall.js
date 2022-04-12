@@ -1,7 +1,7 @@
-const { execSync } = require('child_process')
+import { isCI } from 'ci-info'
+import { execaCommand } from 'execa'
 
-const isCI = require('ci-info').isCI
 if (!isCI) {
-  require('husky').install()
-  execSync('dotnet tool restore')
+  import('husky').then((m) => m.install())
+  execaCommand('dotnet tool restore')
 }
